@@ -1,0 +1,63 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #8dbcbf;
+}
+
+h1 {
+  color: #060606;
+  text-align: center;
+}
+
+h2 {
+  color: #060606;
+  text-align: center;
+}
+
+#source {
+  color: #060606;
+  text-align: center;
+}
+
+.counties {
+  fill: none;
+}
+
+.states {
+  fill: none;
+  stroke: #060606;
+  stroke-linejoin: round;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 28px;
+  padding: 2px;
+  font: 12px sans-serif;
+  color: blue;
+  background-color: lightsteelblue;
+  border: 1px;
+  border-radius: 1px;
+  pointer-events: none;
+}
+
+/*.tooltipTemp {*/
+  /*background-color: black;*/
+/*}*/
+
+#tooltip {
+  border: 1px;
+  border-radius: 5px;
+  padding: 5px;
+  width: 15vw;
+  color: lightsteelblue;
+  background-color: #1c1f23;
+
+}
+
+/*.tool {*/
+  /*background-color: black;*/
+/*}*/
+
+
